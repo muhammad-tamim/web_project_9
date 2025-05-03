@@ -22,6 +22,7 @@
             --font-adlam: "ADLaM Display", sans-serif; 
             --font-sora: "Sora", sans-serif; 
             --color-accent: #FFDC26;
+            --color-secondary: #FFF9F4;
         }
       </style>
 
@@ -83,10 +84,10 @@
         </section>
         <!-- end hero section -->
     </header>
-    <main class="px-4 md:px-8 xl:px-[140px] ">
+    <main>
         <!-- categories section -->
-        <section class="mt-40 md:mt-72 xl:mt-[40%] mb-14 md:mb-32">
-            <h1 class="font-semibold text-2xl fotn-adlam pb-8 xl:text-3xl xl:pb-9">Browse By Categories</h1>
+        <section class="px-4 md:px-8 xl:px-[140px] mt-40 md:mt-72 xl:mt-[40%] mb-14 md:mb-32">
+            <h1 class="font-adlam text-2xl fotn-adlam pb-8 xl:text-4xl xl:pb-9">Browse By Categories</h1>
             <div class="grid grid-cols-2 gap-2 lg:grid-cols-4 xl:grid-cols-7">
                 <div class="bg-[#F9DF8A] px-10 py-8 rounded-xl text-center flex flex-col items-center gap-5">
                     <div class="rounded-full p-6 bg-white size-20 lg:size-24  flex flex-col items-center"><img
@@ -145,9 +146,33 @@
         </section>
         <!-- End categories section -->
 
-        <!-- product section -->
-        <section></section>
-        <!-- end product section -->
+        <!-- trending product section -->
+        <section class="px-4 md:px-8 xl:px-[140px] bg-secondary py-10 xl:py-36">
+            <h1 class="font-adlam text-3xl pb-12">Trending Pet Products</h1>
+            <div>
+                <!-- left side -->
+                <div class="bg-[#F9DF8A] rounded-xl px-6 md:px-8 pt-12 pb-[153px] md:pb-[182px] relative">
+                    <div class="space-y-4 md:space-y-5">
+                        <div class="md:w-[300px] w-[250px]">
+                            <h2 class="text-base md:text-3xl font-adlam pb-4 md:pb-5">T- Shirt For Dogs</h2>
+                            <p class="text-[#111111]/70 text-xs md:text-base">Discover a world of treats, toys, and
+                                essentials handpicked for
+                            </p>
+                        </div>
+                        <div class="bg-white rounded-lg w-[140px] md:w-[167px]">
+                            <button class="text-base md:text-xl px-[25px] py-[8px] md:px-[30px] md:py-[10px]">Shop
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-[130px] md:left-[199px]">
+                        <img class="w-[205px] md:w-[244px] h-auto" src="assets/images/cute-pet-small.png" alt="">
+                    </div>
+                </div>
+                <!-- right side -->
+                <div></div>
+            </div>
+        </section>
+        <!-- end trending product section -->
 
         <!-- price section -->
         <section></section>
