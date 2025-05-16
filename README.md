@@ -22,7 +22,12 @@ https://muhammad-tamim.github.io/web_project_9/
 
 ### 4. Customizing Chrome DevTools for Tailwind Breakpoints
 - I encountered issues with responsive design because the default breakpoints in Chrome DevTools didn’t match Tailwind’s breakpoints. To solve this, I customized the DevTools by adding Tailwind’s breakpoints, which saved me a lot of time and made working with responsiveness much easier and less stressful.
-![Screenshot 2025-05-03 201538](https://github.com/user-attachments/assets/25034232-2f1a-48dd-831b-ccdf9b5a5eed)
+  
+![image](https://github.com/user-attachments/assets/56231ad9-0144-4840-a40c-5f001641ea5f)
+
+
+![image](https://github.com/user-attachments/assets/0b9c90e1-fb1d-496c-a548-0ae258efda44)
+
 
 ### 4. **Trending Products Section**
 ![image](https://github.com/user-attachments/assets/a7f69dec-f104-4926-b086-ea16b6941a99)
